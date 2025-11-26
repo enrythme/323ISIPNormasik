@@ -22,7 +22,7 @@ namespace pr11.Model
                 Enemy newMonster = MonsterTrack.CreateMonster();
                 return newMonster;
             }
-            return null;
+           
         }
 
         public static void OpenChest(Player player)
